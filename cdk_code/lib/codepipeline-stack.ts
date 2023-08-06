@@ -8,7 +8,7 @@ export class CodePipelineStack extends Stack {
     super(scope, id, props)
 
     const source = CodePipelineSource.connection("JugueDev/automated-data-pipeline-with-cdk", "main", {
-        connectionArn: "arn:aws:codestar-connections:us-east-1:539548017896:connection/33730073-76d2-490c-81cf-5251037de340",
+        connectionArn: "arn:aws:codestar-connections:us-east-1:539548017896:connection/1dcf1f84-2491-4206-9144-144500b67da0",
         }
     );
 
