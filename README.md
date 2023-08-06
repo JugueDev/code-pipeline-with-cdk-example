@@ -6,7 +6,7 @@ Steps to use this code:
 
 # Create a connection with Codestar and github (It has to be authorized JUST to the right repository)
 
-# Modify the ARN of the newly created Codestar Connection
+# Modify the ARN of the newly created Codestar Connection (Or store the Giyhub Key on AWS Secrets)
 
 # Install dependencies in cdk_code
 npm i
@@ -24,3 +24,5 @@ cdk deploy
 
 
 ```
+La arquitectura base de este Pipeline es:
+![Diagrama de ingesta](https://github.com/JugueDev/code-pipeline-with-cdk-example/blob/main/images/arq.jpg?raw=true)
