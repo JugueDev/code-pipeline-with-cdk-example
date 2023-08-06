@@ -7,7 +7,7 @@ export class CodePipelineStack extends Stack {
   constructor (scope: Construct, id: string, props?: StackProps) {
     super(scope, id, props)
 
-    const source = CodePipelineSource.connection("JugueDev/automated-data-pipeline-with-cdk", "main", {
+    const source = CodePipelineSource.connection("JugueDev/code-pipeline-with-cdk-example", "main", {
         connectionArn: "arn:aws:codestar-connections:us-east-1:539548017896:connection/1dcf1f84-2491-4206-9144-144500b67da0",
         }
     );

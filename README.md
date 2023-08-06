@@ -4,7 +4,7 @@ Steps to use this code:
 ```
 # Clone or copy the content of this repo
 
-# Create a connection with Codestar and github
+# Create a connection with Codestar and github (It has to be authorized JUST to the right repository)
 
 # Modify the ARN of the newly created Codestar Connection
 
